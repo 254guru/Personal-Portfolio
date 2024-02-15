@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kevin</title>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+        <nav>
+            <img src="images/logo.png" alt="logo">
+            <ul>
+                <li><a href="#index">Home</a></li>
+                <li><a href="#about">About</a></li>9
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hello, I'm <span>Kevin</span><br> Oluda from Kenya </h1>
+        </div>
+       </div> 
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/FB_IMG_1641814228743.jpg" alt="Profile image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>
+                        I am a passionate software engineering student at ALX Africa specializing in front-end development. With two years of hands-on experience and proficiency in Python, particularly flask, I've contributed to diverse projects, focusing on creating visually appealing and user-friendly interfaces. Driven by curiosity and a commitment to excellence, I thrive in dynamic environments where I can innovate and overcome challenges with grace.
+                        Beyond coding, I believe in crafting meaningful experiences through technology. I am eager to collaborate with like-minded individuals and contribute to projects that push the boundaries of front-end development. Together, let's create something extraordinary.
+                    </p>
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>web development</span><br>web app development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Fullstack software engineering ALX Africa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/image-1.png" alt="">
+                    <div class="layer">
+                        <h3>Modern Login/Registration Form</h3>
+                        <a href="http://mama-s-joy.me/Creative_login_form-1/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image-2.png" alt="">
+                    <div class="layer">
+                        <h3>Age Calculator App</h3>
+                        <a href="http://mama-s-joy.me/Age-calculator-app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image-3.png" alt="">
+                    <div class="layer">
+                        <h3>Hacker Login Form</h3>
+                        <a href="http://mama-s-joy.me/Hacker_login_form/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabName){
+            for(tablink of tabLinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/b863873207.js" crossorigin="anonymous"></script>
+</body>
+</html>
