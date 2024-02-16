@@ -4,8 +4,8 @@
     background-color: lightblue;
   }
   #header {
-    height: 50vh;
-    background-size: contain;
+    height: 80vh;
+    background-size: cover;
   }
   .header-text {
     margin-top: 100%;
