@@ -4,14 +4,8 @@
     background-color: lightblue;
   }
   #header {
-    /* background: 100% auto; */
-    width: 100%;
-    height: 80vh;
-    background: url(/images/medium-shot-man-wearing-hat.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-position: 100% auto; Adjust as needed */
+    height: 50vh;
+    background-size: contain;
   }
   .header-text {
     margin-top: 100%;
