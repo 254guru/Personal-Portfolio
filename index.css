@@ -4,7 +4,9 @@
     background-color: lightblue;
   }
   #header {
-    background: 100% auto;
+    /* background: 100% auto; */
+    background-size: 300px 200px; /* Adjust as needed */
+    background-position: 50px 20px; /* Adjust as needed */
   }
   .header-text {
     margin-top: 100%;
