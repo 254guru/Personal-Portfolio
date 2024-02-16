@@ -5,7 +5,7 @@
   }
   #header {
     height: 80vh;
-    background-size: cover;
+    background-size: contain
   }
   .header-text {
     margin-top: 100%;
