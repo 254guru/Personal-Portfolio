@@ -7,7 +7,7 @@
     background: none;
   }
   .header-text {
-    margin-top: 40%;
+    margin-top: 60%;
     font-size: 16px;
   }
   .header-text h1 {
@@ -46,7 +46,7 @@
     flex-basis: 100%;
   }
   .about-col-1 {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
   }
   .about-col-2 {
     font-size: 14px;
