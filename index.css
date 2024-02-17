@@ -4,11 +4,11 @@
     background-color: lightblue;
   }
   #header {
-    height: 50vh;
+    height: 40vh;
     background: none;
   }
   .header-text {
-    margin-top: 40%;
+    margin-top: 30%;
     font-size: 16px;
   }
   .header-text h1 {
@@ -47,7 +47,7 @@
     flex-basis: 100%;
   }
   .about-col-1 {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
   .about-col-2 {
     font-size: 14px;
