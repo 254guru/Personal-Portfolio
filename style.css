@@ -108,7 +108,7 @@ nav ul li a:hover::after {
     word-spacing: 0.15em;
     line-height: 1.5;
 }
-.tab-tittles {
+/* .tab-tittles {
     display: flex;
     margin: 90px 0 50px;
 }
@@ -145,7 +145,7 @@ nav ul li a:hover::after {
 }
 .tab-contents.active-tab {
     display: block;
-}
+} */
 #portfolio {
     padding: 50px 0;
     /* color: #ababab; */
