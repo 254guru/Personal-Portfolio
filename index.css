@@ -4,6 +4,7 @@
     background-color: lightblue;
   }
   #header {
+    height: 50vh;
     background: none;
   }
   .header-text {
