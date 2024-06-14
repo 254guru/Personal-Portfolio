@@ -13,11 +13,11 @@ body{
 }
 #header{
     width: 100%;
-    height: 90vh;
-    background: url(/images/medium-shot-man-wearing-hat.jpg);
+    height: 50vh;
+    /* background: url(/images/medium-shot-man-wearing-hat.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     
 }
 .container{
@@ -55,8 +55,9 @@ nav ul li a:hover::after {
     transition: 0.2s;
 }
 .header-text {
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 30px;
+    margin-left: 25%;
 }
 .header-text h1 {
     font-size: 50px;
@@ -152,14 +153,27 @@ nav ul li a:hover::after {
 }
 .work-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
     grid-gap: 40px;
     margin-top: 50px;
 }
+
+/* .work-list:nth-child(1),
+.work-list:nth-child(2),
+.work-list:nth-child(3) {
+    display: grid;
+} */
 .work {
     border-radius: 10px;
+    display: none;
     position: relative;
     overflow: hidden;
+}
+.work:nth-child(1),
+.work:nth-child(2),
+.work:nth-child(3){
+    display: grid;
 }
 .work img {
     width: 100%;
